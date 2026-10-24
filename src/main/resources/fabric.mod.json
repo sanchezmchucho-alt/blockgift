@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blockgift",
+  "version": "1.0.0",
+  "name": "Block Gift",
+  "description": "Cada vez que rompes un bloque recibes un item aleatorio.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.blockgift.BlockGift"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
